@@ -1,0 +1,93 @@
+h1 {
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: rgb(89, 14, 210);
+
+}
+
+h2 {
+
+  color:rgb(89, 14, 210);
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+}
+
+a {
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.card-shadow {
+
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(#ffd061, #7cd3fb);
+
+}
+.img-format{
+  width: 120px;
+  height: 120px;
+  border-radius: 40%;
+  margin: 320px 100px;
+}
+
+
+.webpage-bg{
+
+  background-image: url("background.jpg");
+  background-size: 80%;
+  background-position: 0px -380px;
+  /* backdrop-filter: blur(3px); */
+  filter: drop-shadow(5px 15px 20px rgb(95, 94, 93))
+
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+.list-inline li{
+  display: inline;
+}
+
+.btn-format{
+  background:rgb(89, 14, 210);
+  color: rgb(246, 245, 247);
+  padding: 10px;
+}
+
+.btn-format:hover{
+  background:#ff7361
+}
+
+.icon-size{
+  font-size: 30px;
+}
+
+.icon-size:hover {
+  color:#ff7361
+ }
+
+.container{
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  width: 700px;
+  margin: 0 auto;
+}
+
+#banner {
+  height: 300px;
+  background-image: url("tiger-cropped.jpg");
+  background-size: cover;
+  border-radius: 3px;
+
+}
